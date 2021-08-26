@@ -166,7 +166,7 @@ nav ul li a:hover:before{
   @media (max-width: 500px) {
     label.logo{
       padding-left: 10px;
-      font-size: 18px;
+      font-size: 14px;
     }
     
   }
