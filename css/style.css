@@ -26,6 +26,9 @@
     padding-left: 80px;
     font-weight: bold;
     font-family: cursive;
+    display: inline-flex;
+    margin-top: 23px;
+    position: absolute;
   }
   label.logo:hover{
     color: rgb(196, 14, 14);
@@ -116,6 +119,12 @@ nav ul li a:hover:before{
     background-color: red;
   }
 
+  #canvas-text{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+  }
+
   @media (max-width: 1000px){
     label.logo{
       font-size: 20px;
@@ -166,9 +175,21 @@ nav ul li a:hover:before{
   @media (max-width: 500px) {
     label.logo{
       padding-left: 10px;
-      font-size: 14px;
+      font-size: 17px;
+    }
+    #md{
+      display: none;
     }
     
   }
 
+  @media (max-width: 380px) {
+    #yeasir{
+      display: none;
+    }
+    #canvas-text{
+       padding-top: 20px;
+    }
+    
+  }
   /* Navigation bar END  */
