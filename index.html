@@ -12,9 +12,11 @@
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
   <title>Hi, there! I am Yeasir Arafat</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/style.css">
+  <!-- Type Writter Script  -->
+  <script src="./asset/typeWritter.js"></script>
 </head>
 
 <body>
@@ -35,12 +37,46 @@
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <h5 class="offcanvas-title" style="margin: auto; font-weight: bold;" id="offcanvasNavbarLabel">Full Stack Web
+          Developer</h5>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <div class="container"><img class= "rounded-circle border border-info mx-auto" style="display: block; height: 40vh;" src="/img/profile.png" alt=""></div>
-        <div class="container"><h4 id="canvas-text">I’m open to any communication! I’m always interested in hearing about new projects and opportunities.</h4></div>
+        <div class="container"><img class="rounded-circle border border-info mx-auto"
+            style="display: block; height: 40vh;" src="/img/profile.png" alt=""></div>
+        <div class="container">
+          <h4 id="canvas-text" style="color: #6E2C00;">I&apos;m open to any communication! I&apos;m always interested in
+            hearing about new
+            projects and opportunities.</h4>
+        </div>
+
+        <!-- Profile Links  -->
+        <div class="container px-5 pt-4">
+          <div class="row">
+            <div class="col" style="padding: 0px;">
+              <button class="btn" onclick="location.href='https://github.com/YeasirArafatZim/'">
+                <i style="font-size:35px;" class="fa fa-git-square link_icon"></i>
+              </button>
+            </div>
+
+            <div class="col" style="padding: 0px;">
+              <button class="btn" onclick="location.href='https://www.linkedin.com/in/yeasirarafatzim/'">
+                <i style="font-size:35px; color:rgb(32, 112, 187)" class="fa fa-linkedin link_icon"></i>
+              </button>
+            </div>
+
+            <div class="col" style="padding: 0px;">
+              <button class="btn" onclick="location.href='https://www.facebook.com/yeasir.arafat.z/'">
+                <i style="font-size:35px; color:rgb(32, 112, 187)" class="fa fa-facebook-square link_icon"></i>
+              </button>
+            </div>
+            <div class="col" style="padding: 0px;">
+              <button class="btn" onclick="location.href='mailto:yeasirarafatzim@gmail.com'">
+                <i style="font-size:35px;" class="fa fa-envelope link_icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -60,27 +96,47 @@
 
     <!-- Logo Section  -->
 
-    <label class="logo" style=""><h3 id="md"><strong>Md. </strong> </h3><h3 id="yeasir"><strong>Yeasir Arafat</strong> </h3></label>
-    <ul>
+    <label class="logo">
+      <h3 id="md"><strong>Md. </strong> </h3>
+      <h3 id="yeasir"><strong>Yeasir Arafat</strong> </h3>
+    </label>
+    <ul style="margin-bottom: 0px;">
       <li><a href="#about" onclick="uncheckedSideMenu()">About</a></li>
       <li><a href="#projects" onclick="uncheckedSideMenu()">Projects</a></li>
       <li><a href="#more" onclick="uncheckedSideMenu()">More</a></li>
       <li><a href="#contact" onclick="uncheckedSideMenu()">Contact</a></li>
     </ul>
   </nav>
+  <!-- Navigation bar END  -->
+
+
+  <!-- Content Start  -->
+  <div>
+    <video height="100%" width="100%" autoplay muted loop>
+      <source src="/asset/background.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="videoContent">
+      <h1 id="name">
+        <span class="txt-rotate" data-period="100"
+          data-rotate='[ "Hi, Im Md. Yeasir Arafat", "Full Stack Web Developer"]'></span>
+      </h1>
+      <p id="designation">A computer science student passionate about programming and design.</p>
+    </div>
+  </div>
+
+  <!-- About  -->
+  <div>
+
+  </div>
+
 
   <script>
     function uncheckedSideMenu() {
       document.getElementById("check").checked = false;
     }
   </script>
-
-  <!-- Navigation bar END  -->
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

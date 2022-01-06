@@ -31,7 +31,7 @@
     position: absolute;
   }
   label.logo:hover{
-    color: rgb(196, 14, 14);
+    color: rgb(19, 124, 194);
     cursor: pointer;
     text-shadow: .1px .1px 10px grey;
   }
@@ -93,7 +93,6 @@ nav ul li a:hover:before{
   #check{
     display: none; 
   }
-
   .nav-icon{
     font-size: 30px;
     margin-left: 30px;
@@ -125,6 +124,41 @@ nav ul li a:hover:before{
     padding-top: 50px;
   }
 
+  .link_icon:hover{
+    font-size: 40px !important;
+  }
+
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add some content at the bottom of the video/page */
+.videoContent {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 60%;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#name{
+  color: white; 
+  text-align: center;
+}
+#designation{
+  font-size: 20px;
+  text-align: center;
+}
+
+
   @media (max-width: 1000px){
     label.logo{
       font-size: 20px;
@@ -133,6 +167,15 @@ nav ul li a:hover:before{
     }
     nav ul li a{
       font-size: 16px;
+    }
+    #name{
+      font-size: 20px;
+    }
+    #designation{
+      font-size: 18px;
+    }
+    .videoContent {
+      top: 40%;
     }
   }
   @media (max-width: 858px){
@@ -169,6 +212,15 @@ nav ul li a:hover:before{
       left: 0;
     }
 
+    #name{
+      font-size: 18px;
+    }
+    #designation{
+      font-size: 16px;
+    }
+    .videoContent {
+      top: 30%;
+    }
 
   }
 
@@ -180,6 +232,15 @@ nav ul li a:hover:before{
     #md{
       display: none;
     }
+    #name{
+      font-size: 16px;
+    }
+    #designation{
+      font-size: 14px;
+    }
+    .videoContent {
+      top: 25%;
+    }
     
   }
 
@@ -189,6 +250,16 @@ nav ul li a:hover:before{
     }
     #canvas-text{
        padding-top: 20px;
+    }
+
+    #name{
+      font-size: 14px;
+    }
+    #designation{
+      font-size: 12px;
+    }
+    .videoContent {
+      top: 22%;
     }
     
   }
