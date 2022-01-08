@@ -200,7 +200,7 @@ nav ul li a:hover:before{
       font-size: 18px;
     }
     .videoContent {
-      top: 40%;
+      top: 280px;
     }
     .about_img{
       width: 150px;
@@ -225,6 +225,7 @@ nav ul li a:hover:before{
       text-align: center;
       transition: all .5s;
     }
+   
     nav ul li{
       display: block;
       margin: 50px 0;
@@ -251,7 +252,7 @@ nav ul li a:hover:before{
       font-size: 16px;
     }
     .videoContent {
-      top: 30%;
+      top: 230px;
     }
 
   }
@@ -260,7 +261,19 @@ nav ul li a:hover:before{
     label.logo{
       padding-left: 10px;
       font-size: 17px;
+      margin-top: 10px;
     }
+    .checkbtn{
+      line-height: 30px;
+      margin-top: 10px;
+    }
+    nav{
+      height: 50px;
+    }
+    .nav-icon{
+      margin-top: 5px;
+    }
+
     #md{
       display: none;
     }
@@ -271,7 +284,7 @@ nav ul li a:hover:before{
       font-size: 14px;
     }
     .videoContent {
-      top: 20%;
+      top: 140px;
     }
     .topic_head{
       margin-top: 10px;
@@ -301,6 +314,11 @@ nav ul li a:hover:before{
     }
     #designation{
       font-size: 12px;
+      margin-bottom: 0px;
+    }
+    .videoContent {
+      padding: 10px;
+      top: 120px;
     }
     
   }
