@@ -270,6 +270,9 @@ nav ul li a:hover:before{
     nav{
       height: 50px;
     }
+    nav ul{
+      top: 50px;
+    }
     .nav-icon{
       margin-top: 5px;
     }
