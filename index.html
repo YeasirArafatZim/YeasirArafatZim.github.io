@@ -15,8 +15,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/style.css">
+
   <!-- Type Writter Script  -->
   <script src="./asset/typeWritter.js"></script>
+
+  <!-- Animation link  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -117,17 +122,41 @@
       Your browser does not support the video tag.
     </video>
     <div class="videoContent">
-      <h1 id="name">
+      <h1 id="name" data-aos="fade-right">
         <span class="txt-rotate" data-period="100"
-          data-rotate='[ "Hi, Im Md. Yeasir Arafat", "Full Stack Web Developer"]'></span>
+          data-rotate='[ "Hi, This is Md. Yeasir Arafat", "Full Stack Web Developer"]'></span>
       </h1>
-      <p id="designation">A computer science student passionate about programming and design.</p>
+      <p id="designation" data-aos="fade-left">A computer science student passionate about programming and design.</p>
     </div>
   </div>
 
   <!-- About  -->
-  <div>
+  <div id="about">
+    <div data-aos="fade-up">
+      <h1 class="topic_head">About Me</h1>
+    </div>
+    <div class="container mb-5 p-4 box" style="background-color: #F9BF3F;" data-aos="flip-left">
+      <div class="row">
+        <div class="col-md-3 my-auto text-center">
+          <img class="about_img" src="./img/profile2.jpg" alt="profile pic" />
+        </div>
+        <div class="col-md-9">
+          <h3 class="about_content">Hello, This is Md. Yeasir Arafat. I am
+            a professional
+            Web Developer currently working at Pioneer Alpha.
+            I have completed my B.Sc degree in Computer Science and Engineering from Ahsanullah University of Science
+            and Technology
+            (AUST).</br></br>
 
+            My interests include software design and development, artificial intelligence, machine learning, computer
+            vision.</br></br>
+
+            I like to travel. I believe travelling gives us a new perspective to everything. We get to know a lot
+            about the different cultures, the cuisines, their history, the language and all the small unique things.
+          </h3>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -137,6 +166,16 @@
     }
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+    });
+  </script>
+  <!-- Animation End -->
 
 </body>
 
